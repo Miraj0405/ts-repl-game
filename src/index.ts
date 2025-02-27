@@ -50,8 +50,8 @@ function gameLoop() {
 }
 
 // Initialize the game
-const player = new Player("DOG", 50, 10, 5);
-const enemy = new Player("CAT", 50, 8, 6);
+const player = new Player("DOG", 50, 10, 5, true);
+const enemy = new Player("CAT", 50, 8, 6, false);
 const game = new Game(player, enemy);
 
 // Start the game loop
